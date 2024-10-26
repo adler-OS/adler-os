@@ -54,29 +54,39 @@
         </li>
       </ul>
       <p>
-        Warum Open Source? Die Herausforderungen der digitalen Transformation erfordern offene und flexible Systeme. Die
-        Zukunftsfähigkeit der Verwaltung muss unabhängig von einzelnen Anbietern sein. Open Source bedeutet für Adler
-        OS, dass Innovationen für alle zugänglich und von vielen talentierten Entwicklern gemeinsam gestaltet werden
-        können.
+        <strong>Warum Open Source?</strong> Die Herausforderungen der digitalen Transformation erfordern offene und
+        flexible Systeme mit einheitlichen Standards. Die Zukunftsfähigkeit der Verwaltung muss unabhängig von einzelnen
+        Anbietern sein. Open Source bedeutet für Adler OS, dass Innovationen für alle zugänglich und von vielen
+        talentierten Entwicklern gemeinsam gestaltet werden können. Ein Fundament, auf dem *jeder* aufbauen kann.
       </p>
       <p>
-        Aufruf zur Mitgestaltung Adler OS lädt Entwickler, Kommunen, Unternehmen und Bürger ein, Teil einer
-        einzigartigen Mission zu werden. Gemeinsam wollen wir die digitale Transformation in Deutschland gestalten und
-        eine Verwaltung aufbauen, die im 21. Jahrhundert ankommt. Helfen Sie mit, eine sichere, zukunftsfähige und
-        nachhaltige digitale Verwaltungsplattform für Deutschland zu schaffen!
+        <strong>Aufruf zur Mitgestaltung:</strong> Adler OS lädt Entwickler, Kommunen, Unternehmen und Bürger ein, Teil
+        des Adlernests zu werden um Deutschland endlich wieder modern und effizient zu machen. Gemeinsam wollen wir die
+        digitale Transformation in Deutschland gestalten und eine Verwaltung aufbauen, die im 21. Jahrhundert ankommt.
+        Helfen Sie mit, eine sichere, zukunftsfähige und nachhaltige digitale Verwaltungsplattform für Deutschland zu
+        schaffen!
+      </p>
+      <p>
+        <!-- Place this tag where you want the button to render. -->
+        <github-button
+          href="https://github.com/adler-os/adler-os"
+          data-color-scheme="no-preference: light; light: light; dark: dark;"
+          data-size="large"
+          data-show-count="true"
+          aria-label="Star adler-os/adler-os on GitHub"
+          >Star</github-button
+        >
       </p>
     </article>
   </div>
 </template>
 
 <script>
+import GithubButton from "vue-github-button";
+
 export default {
-  data() {
-    return {
-      title: "Adler",
-    };
+  components: {
+    GithubButton,
   },
 };
 </script>
-
-<style lang="scss" scoped></style>
