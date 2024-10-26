@@ -67,7 +67,6 @@
         schaffen!
       </p>
       <p>
-        <!-- Place this tag where you want the button to render. -->
         <github-button
           href="https://github.com/adler-os/adler-os"
           data-color-scheme="no-preference: light; light: light; dark: dark;"
