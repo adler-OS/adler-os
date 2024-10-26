@@ -1,13 +1,14 @@
 <template>
   <div class="w-full min-h-screen bg-gray-200">
     <article class="prose mx-auto py-20">
+      <p><img src="/img/adler-logo-AI.jpeg" alt="Adler OS Logo" class="w-40 h-40 border border-gray-100 shadow" /></p>
       <h1>Adler OS</h1>
       <p>
-        Vision: Adler OS strebt nach einer digitalen Verwaltung in Deutschland, die effizient, transparent und bürgernah
-        ist. Unser Ziel ist es, den Bürgern und Kommunen eine Open-Source-Plattform bereitzustellen, die modernste
-        Technologien mit höchsten Standards in Datenschutz und Sicherheit vereint, und eine zukunftsfähige, digitale
-        Verwaltung schafft. Wir glauben an eine Verwaltung von morgen, die den digitalen Alltag für alle Menschen in
-        Deutschland vereinfacht und aktiv die Barrieren des analogen Systems abbaut.
+        <strong>Vision:</strong> Adler OS strebt nach einer digitalen Verwaltung in Deutschland, die effizient,
+        transparent und bürgernah ist. Unser Ziel ist es, den Bürgern und Kommunen eine Open-Source-Plattform
+        bereitzustellen, die modernste Technologien mit höchsten Standards in Datenschutz und Sicherheit vereint, und
+        eine zukunftsfähige, digitale Verwaltung schafft. Wir glauben an eine Verwaltung von morgen, die den digitalen
+        Alltag für alle Menschen in Deutschland vereinfacht und aktiv die Barrieren des analogen Systems abbaut.
       </p>
 
       <p>
