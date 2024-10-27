@@ -2,7 +2,17 @@
   <div class="w-full min-h-screen bg-gray-200">
     <article class="prose mx-auto py-20 px-4 sm:px-8">
       <p><img src="/img/adler-logo-AI.jpeg" alt="Adler OS Logo" class="w-40 h-40 border border-gray-100 shadow" /></p>
-      <h1>Adler OS</h1>
+      <h1 class="flex justify-between items-center">
+        <span>Adler OS</span>
+        <github-button
+          href="https://github.com/adler-os/adler-os"
+          data-color-scheme="no-preference: light; light: light; dark: dark;"
+          data-size="large"
+          data-show-count="true"
+          aria-label="Star adler-os/adler-os on GitHub"
+          >Star</github-button
+        >
+      </h1>
       <p>
         <strong>Vision:</strong> Adler OS strebt nach einer digitalen Verwaltung in Deutschland, die effizient,
         transparent und bürgernah ist. Unser Ziel ist es, den Bürgern und Kommunen eine Open-Source-Plattform
@@ -65,16 +75,6 @@
         digitale Transformation in Deutschland gestalten und eine Verwaltung aufbauen, die im 21. Jahrhundert ankommt.
         Helfen Sie mit, eine sichere, zukunftsfähige und nachhaltige digitale Verwaltungsplattform für Deutschland zu
         schaffen!
-      </p>
-      <p>
-        <github-button
-          href="https://github.com/adler-os/adler-os"
-          data-color-scheme="no-preference: light; light: light; dark: dark;"
-          data-size="large"
-          data-show-count="true"
-          aria-label="Star adler-os/adler-os on GitHub"
-          >Star</github-button
-        >
       </p>
     </article>
   </div>
