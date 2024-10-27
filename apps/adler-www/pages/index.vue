@@ -1,6 +1,6 @@
 <template>
   <div class="w-full min-h-screen bg-gray-200">
-    <article class="prose mx-auto py-20">
+    <article class="prose mx-auto py-20 px-4 sm:px-8">
       <p><img src="/img/adler-logo-AI.jpeg" alt="Adler OS Logo" class="w-40 h-40 border border-gray-100 shadow" /></p>
       <h1>Adler OS</h1>
       <p>
